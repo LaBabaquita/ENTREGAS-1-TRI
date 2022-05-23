@@ -1,0 +1,108 @@
+: raiz {
+
+    --borda :  # 000000 ;
+    
+}
+
+* {
+    box-sizing : border-box;
+}
+
+html ,
+corpo {
+    preenchimento :  0 ;
+    margem :  0 ;
+    borda :  0 nenhuma;
+    fundo :  # 000000 ;
+    anexo de fundo : fixo;
+}
+
+@keyframes piscadela {
+    50 % {
+        cor de fundo : branco;
+    }
+}
+
+principal {
+    altura :  70 vmin ;
+    largura :  70 vmin ;
+    exibição : flexível;
+    flex- wrap : wrap;
+    justificar-conteúdo : centro;
+    align-items : centro;
+    margem superior :  100 px ;
+    margin-left : auto;
+    margin-right : auto;
+}   
+
+principal > . cor {
+    largura :  50 % ;
+    altura :  50 % ;
+    borda : sólido var ( --borda ) 10 px ;
+    flex : nenhum;
+}
+
+main > div : enésimo filho ( 1 ) {
+    cor de fundo :  rgb ( 0 ,  17 ,  255 );
+
+}
+
+main > div : enésimo filho ( 2 ) {
+    cor de fundo :  rgb ( 250 ,  0 ,  0 );
+    
+}
+
+main > div : enésimo filho ( 3 ) {
+    cor de fundo :  rgb ( 0 ,  255 ,  64 );
+    
+}
+
+main > div : enésimo filho ( 4 ) {
+    cor de fundo :  rgb ( 111 ,  0 ,  255 );
+   
+}
+
+principal > div . animar {
+
+    animação : piscadela .3 s easy-in-out;
+    
+}
+
+. cardápio {
+    borda : sólido var ( --borda ) 30 px ;
+    largura : calc ( 70 vmin/2,5);
+    altura :  calc ( 70 vmin/2,5);
+    cor de fundo :  # D7D3DB ;
+    posição : fixo;
+    raio da borda :  100 % ;
+    align-items : centro;
+    exibição : flexível;
+    flex-direction : coluna;
+}
+
+div . pontuação {
+    borda : sólido var ( --borda ) 2 px ;
+    cor de fundo :  # 00000099 ;
+    cor :  #FFFFFF ; _
+    largura :  80 % ;
+    align-items : centro;
+    justificar-conteúdo : centro;
+    altura :  2 em ;
+    exibição : flexível;
+    raio da borda :  50 px ;
+}
+
+botão {
+    largura :  7 cm ;
+    altura :  10 cm ;
+    margem superior : 17 em ;
+    cor de fundo :  rgb ( 217 ,  255 ,  0 );
+    borda :  2 px sólido var ( --borda );
+    cursor : ponteiro;
+}
+
+p {
+    font-family :  'Arima Madurai' , cursiva;
+    text-transform : maiúsculas;
+
+}
