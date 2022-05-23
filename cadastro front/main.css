@@ -1,0 +1,87 @@
+/* https://flatuicolors.com/palette/de */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    --ascent-color: #F0AB3F;
+    --background-color: #F0DBB6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+header {
+    padding: .25em;
+    background-color: var(--ascent-color);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: auto; */
+    flex-direction: column;
+}
+
+.modal {
+    border: 2px solid #000000; /* todo */
+    background-color: #e9c07e; /* todo */
+    box-shadow: 0px 0px 50px -10px #f39a0b;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 2em;
+    position: relative;
+}
+
+
+.modal .bt-close {
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    right: -0.5em;
+    top: -0.5em;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    color: black;
+    cursor: pointer;
+}
+
+.modal h1 {
+    display: block;
+    font-family:"Times New Roman";
+    border-bottom: 1px solid black;
+    margin-bottom: .5em;
+    padding-top: .5em;
+    margin: 0 0 .25em 0;
+    padding: 0;
+}
+
+.modal form > div {
+    margin-bottom: 1em;
+}
+
+.modal form > div > label {
+    display: block;
+}
+
+.modal form > div > input {
+    width: 100%;
+}
+
+.modal div.action {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid black;
+    margin-top: .5em;
+    padding-top: .5em;
+}
