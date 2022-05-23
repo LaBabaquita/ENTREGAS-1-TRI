@@ -97,7 +97,6 @@ button {
     width: 7em;
     height: 10em;
     margin-top:17em;
-    border-radius: 50%;
     background-color: rgb(217, 255, 0);
     border: 2px solid var(--borda);
     cursor: pointer;
